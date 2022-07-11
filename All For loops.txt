@@ -1,0 +1,33 @@
+For the given JSON iterate over all for loops:
+let object=[
+    {"person":"John","age":30,"company":"Google"},
+    {"person":"Mohn","age":37,"company":"Flipkart"},
+    {"person":"Kohn","age":38,"company":"Amazon"},
+    {"person":"Sohan","age":40,"company":"Myntra"},
+    {"person":"Jenny","age":70,"company":"Apple"},
+]
+
+1. for loop :
+for(var i = 0;i<object.length;i++){
+       var obj = arr[i];
+       for (var key in obj){
+           var value = obj[key];
+           console.log(key + ": " + value);
+  }
+}
+
+2. for ..in loop:
+for(var key in object){
+      var value = object[key];
+      console.log(key + " " +value);
+}
+
+3.for...of loop:
+for(const element of object){
+       console.log(element);
+}     
+
+4.forEach() loop:
+objects.forEach(function(item){
+      console.log(item);
+});

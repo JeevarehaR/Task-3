@@ -1,0 +1,80 @@
+Creating my own resume in JSON Format:
+
+let resume = [
+ {
+  "basics": {
+    "name": "Jeevareha Ramakrishnan",
+    "label": "Programmer",
+    "image": "https://drive.google.com/file/d/1EdaIg4Wn3Pmcl94HxsdQ0rl_mlKdScGf/view?usp=sharing",
+    "email": "jeev.reh@gmail.com",
+    "phone": "(+91) 9025574760",
+    "url": "https://JeevarehaR.com",
+    "location": {
+      "address": "L.30, TNHB, Moolakothalam",
+      "postalCode": "623501",
+      "city": "Ramanathapuram",
+      "countryCode": "IN",
+      "region": "TamilNadu"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "JeevarehaR",
+      "url": "https://github.com/JeevarehaR"
+    }]
+  },
+  "work": [{
+    "name": "Guvi",
+    "position": "Web Developer Trainee",
+    "url": "https://guvi.in",
+    "startDate": "2022-07-01",
+    "endDate": "2022-10-01",
+  }],
+  "education": [{
+    "institution": "Anna University",
+    "url": "https://vcet.in/",
+    "area": "Information Technology",
+    "studyType": "Bachelor",
+    "startDate": "2016-08-01",
+    "endDate": "2020-04-01",
+    "score": "7.0",
+  }],
+  "certificates": [{
+    "name": "Web developer",
+    "date": "01-05-2022",
+    "issuer": "UDEMY",
+    "url": "ude.my/UC-8385742f-c8e0-4652-b6f3-929c5fe174f2"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "node.js",
+      "Python"
+    ]
+  }],
+  "languages": ["Tamil","English","Hindi"],
+  "interests": [{
+    "name": "Sports",
+    "keywords": [
+      "Badminton",
+      "Tennis"
+    ]
+  }],
+  "projects": [{
+    "name": "Yelpcamp",
+    "description": "This project was created using Node.js, Express, MongoDB and Bootstrap. YelpCamp is a website where users can create and review campgrounds.",
+    "highlights": [
+      "Anybody can create, edit, update, delete and save their contents in our framework."
+    ],
+    "keywords": [
+      "JavaScript", "Node.js", "Mongodb", "ExpressJS, "Bootstrap","HTML5","CSS"
+    ],
+    "startDate": "01-03-2022",
+    "endDate": "02-05-2022",
+    "url": "https://yelpcamp.com/",
+    "type": "application"
+  }]
+}
+]
